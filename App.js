@@ -1,21 +1,20 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import { createStore} from 'redux';
-import { Provider, connect } from 'react-redux';
+import { Provider } from 'react-redux';
 import reducer from './reducer';
+import { InnerApp } from './InnerApp';
 
 const store = createStore(reducer)
-// Create redux store
-// Pass in your reducer file as an argument
-// You can also pass in a reducer folder as an argument
 
-
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Hello World</Text>
-      </View>
+      <Provider store={store}>
+        <View style={styles.container}>
+          <InnerApp proptest="ji" />
+        </View>
+      </Provider>
     );
   }
 }
