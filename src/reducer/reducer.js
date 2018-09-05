@@ -15,3 +15,6 @@ function reducer(state = initialState, action) {
 }
 
 export default reducer;
+
+// If you want to add more reducers just add more case statements
+// If you want to add different types of reducers you need to use the combineReducer({}) method

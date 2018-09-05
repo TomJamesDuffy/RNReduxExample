@@ -8,6 +8,9 @@ import { styles } from './src/component/styles';
 
 const store = createStore(reducer)
 
+// You create your store with a reducer (or combinedReducers)
+// You can also add middleware, persistent data and the ability to use the debugger.
+
 export default class App extends Component {
   render() {
     return (
@@ -19,3 +22,5 @@ export default class App extends Component {
     );
   }
 }
+
+// The provider PROVIDES redux to all of it's child components through connect.

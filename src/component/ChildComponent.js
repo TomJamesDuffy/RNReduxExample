@@ -20,8 +20,14 @@ const mapDispatchToProps = {
   incrementCount
 }
 
+// You are mapping YOUR dispatcher incrementCount i.e your action to props. 
+// Hence why this.props.incrementCout()
+
 const mapStateToProps = state => ({
   count: state.count
 })
+
+// The structure of your state tree is defined in your reducer. 
+// You are mapping redux's STATE to YOUR props. Hence why count is accessible through this.props.count
 
 export default connect(mapStateToProps, mapDispatchToProps)(ChildComponent)
