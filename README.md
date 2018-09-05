@@ -1,6 +1,8 @@
 # RNReduxExample - setup
 `npm install`  
 `react-native run-ios`  
+or if you're really wild:  
+`react-native run-android` 
 
 ----------
 # In the file everything you need is in:
