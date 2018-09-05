@@ -18,7 +18,7 @@ redux is a big object that stores the current state of lots of different variabl
 
 Like this (although usually much bigger!)  
 
-state = {   
+`state = {   
   cat:  
     {  
       price: 10,  
@@ -29,7 +29,7 @@ state = {
       price: 12,  
       mood: happy  
      }  
- } . 
+ }`
     
 ----------
 # What you can do
