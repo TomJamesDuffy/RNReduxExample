@@ -20,8 +20,8 @@ const mapDispatchToProps = {
   incrementCount
 }
 
-// You are mapping YOUR dispatcher incrementCount i.e your action to props. 
-// Hence why this.props.incrementCout()
+// You are mapping YOUR dispatcher incrementCount i.e your action creator to the props. 
+// Hence why this.props.incrementCount()
 
 const mapStateToProps = state => ({
   count: state.count
