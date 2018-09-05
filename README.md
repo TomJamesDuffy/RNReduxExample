@@ -47,7 +47,7 @@ view -> action + action creator -> reducer -> store .
 # Those words are confusing
 
 view = Whatever triggers your action be it a button, constructor, method . 
-action = Sends off actions, just a function . 
+action = Sends off actions, just a function   
 action creator = The message sent to the reducer (in the form of an object)  
 reducer = Makes a change in the redux store, why reduce?! Similiar to how the method .reduce works, it has an accumulator that is added to every iteration. Just like a reducer adds to the store every time it's called (and stores a history).  
 
