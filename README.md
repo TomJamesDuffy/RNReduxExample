@@ -2,12 +2,14 @@
 `npm install`  
 `react-native run-ios`  
 
+----------
 # In the file everything you need is in:
 App.js  
 src/component/ChildComponent.js  
 src/reducer/reducer.js  
 src/action/action.js  
 
+----------
 # What's redux
 variables store data  
 variables with meaningful names, that store data are information  
