@@ -26,12 +26,12 @@ Like this (although usually much bigger!)
   cat:  
     {  
       price: 10,  
-      mood: sad  
+      mood: "sad"  
     },  
    dog:  
     {  
       price: 12,  
-      mood: happy  
+      mood: "happy" 
      }  
  }`
     
